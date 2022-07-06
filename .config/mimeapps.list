@@ -1,0 +1,12 @@
+[Added Associations]
+text/plain=brave-browser.desktop;vim.desktop;nvim.desktop;userapp-st vim-SDKMO1.desktop;
+application/x-shellscript=userapp-st vim-SDKMO1.desktop;
+application/pdf=brave-browser.desktop;org.pwmt.zathura-pdf-mupdf.desktop;libreoffice-draw.desktop;
+image/png=sxiv.desktop;
+application/xml=userapp-st vim-SDKMO1.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;
+image/jpeg=sxiv.desktop;
+text/x-tex=userapp-st vim-SDKMO1.desktop;
+
+[Default Applications]
+text/plain=userapp-st vim-SDKMO1.desktop

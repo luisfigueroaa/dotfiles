@@ -1,0 +1,29 @@
+#!/bin/sh
+
+localfiles="\
+    $HOME/.zshrc \
+    $HOME/.zprofile \
+    $HOME/.xinitrc \
+    $HOME/.xprofile \
+    $HOME/.tmux.conf \
+    $HOME/.zsh \
+    $HOME/bin \
+    "
+
+configfiles="\
+    $XDG_CONFIG_HOME/dunst \
+    $XDG_CONFIG_HOME/fontconfig \
+    $XDG_CONFIG_HOME/gtk-3.0 \
+    $XDG_CONFIG_HOME/mimeapps.list \
+    $XDG_CONFIG_HOME/mpd \
+    $XDG_CONFIG_HOME/mpv \
+    $XDG_CONFIG_HOME/ncmpcpp \
+    $XDG_CONFIG_HOME/neofetch \
+    $XDG_CONFIG_HOME/nvim \
+    $XDG_CONFIG_HOME/ranger \
+    $XDG_CONFIG_HOME/Thunar \
+    $XDG_CONFIG_HOME/zathura \
+    "
+
+rsync -uvrP --delete-after $localfiles $HOME/.dotfiles/
+rsync -uvrP --delete-after $configfiles $HOME/.dotfiles/.config/

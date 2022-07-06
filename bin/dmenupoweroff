@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# a simple dmenu session script 
+#
+###
+
+choice=$(echo -e "suspend\nshutdown\nreboot" | dmenu -i -p "💬Power off menu"  | cut -f 1)
+
+case "$choice" in
+  logout) i3-msg exit & ;;
+  shutdown) systemctl poweroff & ;;
+  reboot) systemctl reboot & ;;
+  suspend) systemctl suspend & ;;
+  hibernate) sudo pm-hibernate & ;;
+esac
