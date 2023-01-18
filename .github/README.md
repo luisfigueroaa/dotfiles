@@ -4,9 +4,9 @@
 
 According to https://wiki.archlinux.org/title/Dotfiles:
 
-   $ git clone --bare ~/.dotfiles
-   $ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-   $ config config status.showUntrackedFiles no 
+    $ git clone --bare ~/.dotfiles
+    $ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+    $ config config status.showUntrackedFiles no 
 
 You must put your alias in your .bashrc or .zshrc.
 
