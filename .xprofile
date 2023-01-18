@@ -1,0 +1,12 @@
+setxkbmap -layout latam
+thunar --daemon &
+systemctl --user import-environment DISPLAY
+xrandr --dpi 96
+# MPD daemon start (if no other user instance exists)
+[ ! -s ~/.config/mpd/pid ] && mpd
+
+autostart="picom randomwallpaper dwmblocks thunderbird st"
+
+for program in $autostart; do
+	pidof -s "$program" || "$program" &
+done >/dev/null 2>&1

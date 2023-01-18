@@ -1,0 +1,3 @@
+lyrics_directory = "~/.local/share/lyrics"
+external_editor = nvim
+startup_screen = "media_library"

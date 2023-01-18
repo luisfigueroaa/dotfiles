@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# priorize "release_year" instead of replace:
+# --parse-metadata "release_year:(?s)(?P<meta_date>.+)"
+# upon code just replace
+
+while true
+do
+    echo "Please insert the url:"
+    read URL
+
+    yt-dlp \
+	--extract-audio \
+	--audio-format mp3 \
+	--path ~/Música/ \
+	--no-playlist \
+	--output "%(artist)s - %(title)s.%(ext)s" \
+	--parse-metadata ":(?P<description>)" \
+	--parse-metadata ":(?P<meta_comment>)" \
+	--parse-metadata "%(release_year|)s:%(meta_date)s" \
+	--add-metadata \
+	$URL
+done
