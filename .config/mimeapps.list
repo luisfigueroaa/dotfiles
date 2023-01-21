@@ -1,7 +1,7 @@
 [Added Associations]
 text/plain=vim.desktop;brave-browser.desktop;nvim.desktop;userapp-st vim-SDKMO1.desktop;st-vim.desktop;
 application/x-shellscript=userapp-st vim-SDKMO1.desktop;
-application/pdf=libreoffice-writer.desktop;org.pwmt.zathura-pdf-mupdf.desktop;brave-browser.desktop;libreoffice-draw.desktop;
+application/pdf=libreoffice-draw.desktop;libreoffice-writer.desktop;org.pwmt.zathura-pdf-mupdf.desktop;brave-browser.desktop;
 image/png=sxiv.desktop;
 application/xml=userapp-st vim-SDKMO1.desktop;
 image/svg+xml=org.inkscape.Inkscape.desktop;
@@ -12,6 +12,7 @@ image/x-portable-anymap=sxiv.desktop;
 image/gif=sxiv.desktop;
 text/x-csrc=userapp-st vim-SDKMO1.desktop;
 image/webp=sxiv.desktop;feh.desktop;
+application/json=st-vim.desktop;
 
 [Default Applications]
 text/plain=st-vim.desktop
