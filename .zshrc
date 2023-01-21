@@ -65,31 +65,36 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 zathura() { nohup zathura $1 > /dev/null 2>&1 & }
 
+# aliases
 alias vim='nvim'
-alias grep='grep --color=auto'
-alias ls='ls --color=auto'
 alias showmethekeys="xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'"
-alias ucsm="cd ~/Documentos/UCSM/SEMESTRE\ 2021/"
-alias videos="cd ~/Vídeos/"
-alias d="cd ~/Documentos/"
-alias D="cd ~/Descargas/"
-alias i="cd ~/Imágenes/"
-alias a="cd ~/audios/"
-alias P="cd ~/Plantillas/"
-alias p="cd ~/projects/"
 alias dotfiles="cd ~/.dotfiles/"
 alias vimrc="vim ~/.config/nvim/init.vim"
-alias i3rc="vim ~/.config/i3/config"
-alias rofirc="vim ~/.config/rofi/config.rasi"
-alias zshrc="vim ~/.zshrc"
-alias alacrittyrc="vim ~/.config/alacritty/alacritty.yml"
-alias kittyrc="vim ~/.config/kitty/kitty.conf"
-alias .config="cd ~/.config/"
-alias .dotfiles="cd ~/.dotfiles/"
-alias ..="cd .."
-alias -- -='cd -'
-# current working directory
-alias work="cd $HOME/Documentos/ucsm/semestre-2021/software/estado-arte"
+# colorise
+alias \
+    ls="ls -hN --color=auto --group-directories-first" \
+    grep="grep --color=auto" \
+    diff="diff --color=auto" \
+    ccat="highlight --out-format=ansi" \
+    ip="ip -color=auto"
+# verbosity
+alias \
+    cp="cp -iv" \
+    mv="mv -iv" \
+    rm="rm -vI" \
+    bc="bc -ql" \
+    mkdir="mkdir -pv" \
+alias ffmpeg="ffmpeg -hide_banner"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+# yt-music
+alias yt-a="yt-dlp \
+    --extract-audio \
+    --audio-format mp3 \
+    --no-playlist \
+    --output '%(artist)s - %(title)s.%(ext)s' \
+    --parse-metadata ':(?P<description>)' \
+    --parse-metadata ':(?P<meta_comment>)' \
+    --parse-metadata '%(release_year|)s:%(meta_date)s' \
+    --add-metadata"
 
 pfetch
