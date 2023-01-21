@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 NoDisplay=true
-Exec=st nvim %f
+Exec=st -e nvim %f
 Name=st nvim
 Comment=Definición personalizada para st nvim

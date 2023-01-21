@@ -1,5 +1,6 @@
 setxkbmap -layout latam
 thunar --daemon &
+# Dunst fails to start via systemd: https://wiki.archlinux.org/title/Dunst#Dunst_fails_to_start_via_systemd
 systemctl --user import-environment DISPLAY
 xrandr --dpi 96
 # MPD daemon start (if no other user instance exists)
