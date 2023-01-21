@@ -1,9 +1,16 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-7HA6O1.desktop
+message/rfc822=userapp-Thunderbird-7HA6O1.desktop
+x-scheme-handler/mid=userapp-Thunderbird-7HA6O1.desktop
+text/plain=userapp-st -e nvim %f-RY2OX1.desktop
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+application/octet-stream=userapp-st -e nvim %f-RY2OX1.desktop
+
 [Added Associations]
 text/plain=vim.desktop;brave-browser.desktop;nvim.desktop;userapp-st vim-SDKMO1.desktop;st-vim.desktop;
 application/x-shellscript=userapp-st vim-SDKMO1.desktop;
 application/pdf=libreoffice-draw.desktop;libreoffice-writer.desktop;org.pwmt.zathura-pdf-mupdf.desktop;brave-browser.desktop;
 image/png=sxiv.desktop;
-application/xml=userapp-st vim-SDKMO1.desktop;
 image/svg+xml=org.inkscape.Inkscape.desktop;
 image/jpeg=sxiv.desktop;gimp.desktop;
 text/x-tex=userapp-st vim-SDKMO1.desktop;
@@ -14,6 +21,4 @@ text/x-csrc=userapp-st vim-SDKMO1.desktop;
 image/webp=sxiv.desktop;feh.desktop;
 application/json=st-vim.desktop;
 
-[Default Applications]
-text/plain=st-vim.desktop
-application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+[Removed Associations]
