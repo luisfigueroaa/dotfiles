@@ -1,0 +1,7 @@
+[user]
+	name = Luis Figueroa
+	email = luis_figueroa_morales@yahoo.com
+[merge]
+	tool = nvimdiff
+[mergetool]
+	keepBackup = false
