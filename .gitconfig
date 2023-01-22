@@ -1,0 +1,5 @@
+[user]
+	email = luis_figueroa_morales@yahoo.com
+	name = Luis Figueroa
+[merge]
+	tool = nvimdiff
