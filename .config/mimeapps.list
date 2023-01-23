@@ -10,7 +10,7 @@ inode/directory=thunar.desktop
 [Added Associations]
 text/plain=vim.desktop;brave-browser.desktop;nvim.desktop;userapp-st vim-SDKMO1.desktop;st-vim.desktop;
 application/x-shellscript=userapp-st vim-SDKMO1.desktop;
-application/pdf=libreoffice-draw.desktop;libreoffice-writer.desktop;org.pwmt.zathura-pdf-mupdf.desktop;brave-browser.desktop;
+application/pdf=com.github.xournalpp.xournalpp.desktop;libreoffice-draw.desktop;libreoffice-writer.desktop;org.pwmt.zathura-pdf-mupdf.desktop;brave-browser.desktop;
 image/png=sxiv.desktop;
 image/svg+xml=org.inkscape.Inkscape.desktop;
 image/jpeg=sxiv.desktop;gimp.desktop;
