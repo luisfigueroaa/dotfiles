@@ -1,0 +1,10 @@
+#!/bin/sh
+
+choise=$(printf "set wallpaper\\nset random wallpaper" | dmenu -p "wallpaper choiser")
+
+case "$choise" in
+    "set wallpaper")
+	sxiv -t $HOME/Imágenes/wallpapers/  ;;
+    "set random wallpaper")
+	feh --bg-fill --randomize $HOME/Imágenes/wallpapers/ ;;
+esac
