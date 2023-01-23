@@ -21,5 +21,6 @@ image/gif=sxiv.desktop;
 text/x-csrc=userapp-st vim-SDKMO1.desktop;
 image/webp=sxiv.desktop;feh.desktop;
 application/json=st-vim.desktop;
+inode/directory=sxiv.desktop;
 
 [Removed Associations]
