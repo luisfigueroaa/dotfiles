@@ -215,9 +215,9 @@ syntax enable
     " equations in multiple lines centered
     autocmd FileType tex inoremap ,gat \begin{gather*}<ENTER>\end{gather*}<ESC>ko
     " templates
-    autocmd FileType tex inoremap ,pl <Esc>:-1read $HOME/Plantillas/article.tex<CR>
-    autocmd FileType tex inoremap ,plb <Esc>:-1read $HOME/Plantillas/beamer.tex<CR>
-    autocmd FileType tex inoremap ,plu <Esc>:-1read $HOME/Plantillas/article-ucsm.tex<CR>
+    autocmd FileType tex inoremap ,pl <Esc>:-1read $HOME/.local/share/latex/article.tex<CR>
+    autocmd FileType tex inoremap ,plb <Esc>:-1read $HOME/.local/share/latex/beamer.tex<CR>
+    autocmd FileType tex inoremap ,plu <Esc>:-1read $HOME/.local/share/latex/article-ucsm.tex<CR>
     " tables
     autocmd FileType tex inoremap ,ta \begin{tabular}<Enter><++><Enter>\end{tabular}<Enter><Enter><++><Esc>4kA{}<Esc>i
     autocmd FileType tex inoremap ,ot \begin{tableau}<Enter>\inp{<++>}<Tab>\const{<++>}<Tab><++><Enter><++><Enter>\end{tableau}<Enter><Enter><++><Esc>5kA{}<Esc>i
