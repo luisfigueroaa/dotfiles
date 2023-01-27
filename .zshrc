@@ -97,4 +97,5 @@ alias yt-a="yt-dlp \
     --parse-metadata '%(release_year|)s:%(meta_date)s' \
     --add-metadata"
 
+# initialize with pfetch
 pfetch

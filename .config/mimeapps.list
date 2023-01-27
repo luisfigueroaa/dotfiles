@@ -20,7 +20,7 @@ image/x-portable-anymap=sxiv.desktop;
 image/gif=sxiv.desktop;
 text/x-csrc=userapp-st vim-SDKMO1.desktop;
 image/webp=sxiv.desktop;feh.desktop;
-application/json=st-vim.desktop;
+application/json=brave-browser.desktop;st-vim.desktop;
 inode/directory=sxiv.desktop;
 
 [Removed Associations]
