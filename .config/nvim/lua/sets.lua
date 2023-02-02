@@ -1,0 +1,17 @@
+vim.o.guicursor = false
+vim.o.number = true
+vim.o.hlsearch = false
+vim.o.smartcase = true
+vim.o.shiftwidth = 4
+vim.o.softtabstop = 4
+vim.o.number = true
+vim.o.ruler = true
+vim.o.cursorline = true
+vim.o.wildmenu = true
+vim.o.incsearch = true
+vim.o.termguicolors = true
+vim.o.relativenumber = true
+vim.o.colorcolumn = 81
+vim.o.laststatus = 1
+vim.o.statusline = false
+vim.o.clipboard = "unnamedplus"
