@@ -1,0 +1,61 @@
+{
+	"article": {
+		"prefix": "article",
+		"body": [
+            "\\documentclass{article}",
+            "",
+            "\\usepackage[utf8]{inputenc}",
+            "\\usepackage[spanish, es-tabla]{babel}",
+            "\\usepackage[margin=25mm]{geometry}",
+            "\\usepackage[colorlinks=true, allcolors=blue]{hyperref}",
+            "\\usepackage{amsmath}",
+            "\\usepackage{graphicx}",
+            "\\usepackage{listings}",
+            "\\usepackage{parskip}",
+            "\\usepackage{tikz}",
+            "\\usepackage{float}",
+            "\\usepackage[backend=biber, style=ieee]{biblatex}",
+            "",
+            "\\title{${1:titulo}}",
+            "\\author{${2:autor}}",
+            "\\date{}",
+            "",
+            "\\begin{document}",
+            "",
+            "\\maketitle",
+            "",
+            "$3",
+            "",
+            "\\nocite{*}",
+            "\\printbibliography",
+            "",
+            "\\end{document}"
+		],
+        "description": "Plantilla articulo"
+	},
+    "beamer": {
+        "prefix": "beamer",
+        "body": [
+            "\\documentclass{beamer}",
+            "\\usetheme{default}",
+            "\\usepackage[spanish]{babel}",
+            "",
+            "\\begin{document}",
+            "",
+            "\\title{${1:titulo}}",
+            "\\author{${2:autor}}",
+            "\\date{}",
+            "",
+            "\\begin{frame}",
+            "",
+            "    \\maketitle",
+            "",
+            "    $0",
+            "",
+            "\\end{frame}",
+            "",
+            "\\end{document}"
+        ],
+        "description": "Plantilla beamer"
+    }
+}
