@@ -69,7 +69,7 @@ zathura() { nohup zathura $1 > /dev/null 2>&1 & }
 alias vim='nvim'
 alias showmethekeys="xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'"
 alias dotfiles="cd ~/.dotfiles/"
-alias vimrc="vim ~/.config/nvim/init.vim"
+alias vimrc="vim ~/.config/nvim/init.lua"
 # colorise
 alias \
     ls="ls -hN --color=auto --group-directories-first" \

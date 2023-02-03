@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
     use 'rakr/vim-one'
     use {
 	'nvim-lualine/lualine.nvim',
-	requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+	requires = { 'kyazdani42/nvim-web-devicons', opt = true },
     }
     use {
 	'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -20,4 +20,6 @@ return require('packer').startup(function(use)
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
+    use 'preservim/nerdtree'
+    use 'ryanoasis/vim-devicons'
 end)
