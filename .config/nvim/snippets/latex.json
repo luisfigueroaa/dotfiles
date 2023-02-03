@@ -24,7 +24,7 @@
             "",
             "\\maketitle",
             "",
-            "$3",
+            "$0",
             "",
             "\\nocite{*}",
             "\\printbibliography",
