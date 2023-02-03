@@ -19,3 +19,7 @@ vim.keymap.set('n', '<leader>h', '<cmd>set hlsearch!<cr>')
 vim.keymap.set('i', ',++', '<++>')
 vim.keymap.set('i', ',<tab>', '<esc>/<++><enter>"_c4l')
 vim.keymap.set('v', '<leader><tab>', '<esc>/<++><enter>"_c4l')
+
+--compiler and output
+vim.keymap.set('n', '<leader>co', ':w | !compiler "<c-r>%"<cr>')
+vim.keymap.set('n', '<leader>op', ':!opout <cr>%<cr><cr>')
