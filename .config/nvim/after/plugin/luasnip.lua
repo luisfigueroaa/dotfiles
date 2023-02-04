@@ -1,5 +1,4 @@
 require("luasnip.loaders.from_vscode").load({paths = "./snippets"})
-print("hello")
 
 vim.cmd([[
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
