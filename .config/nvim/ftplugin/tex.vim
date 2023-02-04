@@ -14,3 +14,5 @@ end)
 
 lsp.setup()
 EOF
+
+let maplocalleader = " "
