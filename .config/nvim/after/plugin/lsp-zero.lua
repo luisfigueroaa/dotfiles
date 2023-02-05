@@ -12,6 +12,6 @@ lsp.nvim_workspace()
 lsp.setup()
 
 vim.diagnostic.config({
-    signs = true,
+    signs = false,
     underline = false,
 })
