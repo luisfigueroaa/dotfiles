@@ -19,7 +19,7 @@ syntax enable
     "set noswapfile
     "set nospell
     set pastetoggle=<F2>
-    set rnu
+    set relativenumber
     set colorcolumn=81
     set shortmess-=S
     set shortmess+=c
