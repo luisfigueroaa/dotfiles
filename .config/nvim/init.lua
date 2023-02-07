@@ -1,5 +1,4 @@
 require('sets')
 require('plugins')
-require('colorscheme')
 require('remaps')
 require('snippets')

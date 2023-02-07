@@ -36,7 +36,7 @@
     "beamer": {
         "prefix": "beamer",
         "body": [
-            "\\documentclass{beamer}",
+            "\\documentclasl[aspectratio=169]{beamer}",
             "\\usetheme{default}",
             "\\usepackage[spanish]{babel}",
             "",

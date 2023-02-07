@@ -45,4 +45,5 @@ return require('packer').startup(function(use)
         }
     }
     use 'lervag/vimtex'
+    use 'norcalli/nvim-colorizer.lua'
 end)
