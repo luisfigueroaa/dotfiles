@@ -20,3 +20,6 @@ vim.opt.laststatus = 1
 vim.opt.statusline = ""
 vim.opt.clipboard = "unnamedplus"
 vim.opt.showmode = false
+
+vim.opt.list = true
+vim.opt.listchars = { eol = '↲', tab = '» ', multispace = '»   '}
