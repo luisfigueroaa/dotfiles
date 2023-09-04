@@ -5,6 +5,9 @@ systemctl --user import-environment DISPLAY
 xrandr --dpi 96
 # MPD daemon start (if no other user instance exists)
 [ ! -s ~/.config/mpd/pid ] && mpd
+# libinput configuration
+xinput set-prop 11 307 1
+xinput set-prop 11 334 1
 
 autostart="picom randomwallpaper dwmblocks thunderbird st"
 
